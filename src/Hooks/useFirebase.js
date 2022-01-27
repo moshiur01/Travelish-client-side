@@ -15,6 +15,9 @@ import firebaseAuthentication from "../Firebase/FirebaseInit";
 firebaseAuthentication();
 
 const useFirebase = () => {
+  //admin
+  const [adminView, setAdminView] = useState("posts");
+
   // Post Type
   const [postType, setPostType] = useState("");
 
@@ -170,6 +173,8 @@ const useFirebase = () => {
     handlePostType,
     setSingleUser,
     singleUser,
+    adminView,
+    setAdminView,
   };
 };
 

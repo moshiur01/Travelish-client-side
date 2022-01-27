@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
-import Profile from "../../Components/Sidebar/Profile";
 
 const Post = () => {
   return (
@@ -82,9 +81,7 @@ const Post = () => {
             </div>
           </div>
         </div>
-        <div className="p-5">
-          <Profile></Profile>
-        </div>
+        <div className="p-5"></div>
       </div>
       <Footer></Footer>
     </>

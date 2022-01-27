@@ -1,6 +1,5 @@
 import React from "react";
-import NewPostPrompt from "../NewPost/NewPostPrompt";
-import Profile from "./Profile";
+
 import "./Sidebar.css";
 import TopPlaces from "./TopPlaces";
 
