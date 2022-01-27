@@ -5,6 +5,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Login from "./Pages/Login/Login";
 import AuthProvider from "./Hooks/AuthProvider";
+import Post from "./Pages/Post/Post";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <Routes>
+            <Route path="/post" exact={true} element={<Post></Post>}></Route>
             <Route path="/login" exact={true} element={<Login></Login>}></Route>
             <Route
               path="/dashboard"

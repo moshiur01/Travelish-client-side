@@ -6,7 +6,7 @@ const Profile = () => {
       <div className="grid grid-cols-3 gap-5 items-center">
         <div className="col-span-2">
           <p className="font-medium text-3xl">Kuddus Ali</p>
-          <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded-full">
+          <span className="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded-full">
             Admin
           </span>
         </div>
@@ -42,11 +42,11 @@ const Profile = () => {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="#2c3e50"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <circle cx="9" cy="7" r="4" />

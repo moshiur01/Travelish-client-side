@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyB897lNk-p0aREu3Rk031sQ551RqI2Bb7s",
-  authDomain: "hello-world-beae4.firebaseapp.com",
-  projectId: "hello-world-beae4",
-  storageBucket: "hello-world-beae4.appspot.com",
-  messagingSenderId: "630796607914",
-  appId: "1:630796607914:web:e6f90d9507e7f660738bd3",
+  apiKey: "AIzaSyAnYX3ctxwIbC3cWT3KyCQk_XtxMLQr2fo",
+  authDomain: "let-s-travel-da2da.firebaseapp.com",
+  projectId: "let-s-travel-da2da",
+  storageBucket: "let-s-travel-da2da.appspot.com",
+  messagingSenderId: "307451398114",
+  appId: "1:307451398114:web:096c030ae18cae06d89bbb",
 };
 export default firebaseConfig;
