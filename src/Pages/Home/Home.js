@@ -11,9 +11,15 @@ const Home = () => {
   return (
     <>
       <Header></Header>
+      <Carousel></Carousel>
+      <div className="p-8 text-center font-medium">
+        <h1 className="text-5xl mb-3">Our Latest Blogs</h1>
+        <p className="text-3xl">
+          Travel is the only thing you buy that makes you richer
+        </p>
+      </div>
       <div className="md:grid grid-cols-5">
         <div className="col-span-4">
-          <Carousel></Carousel>
           <NewPostBox></NewPostBox>
           <Posts></Posts>
         </div>

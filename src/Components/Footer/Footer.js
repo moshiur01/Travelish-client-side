@@ -3,16 +3,20 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="text-white bg-white pb-5">
-        <div className="pt-9">
-          <div className="flex items-center justify-center mb-9">
-            <a href="/" className="mr-9 text-gray-800">
+      <footer className="text-center bg-white ">
+        <div className=" px-6 pt-6">
+          <div className="flex justify-center mb-6">
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                className="svg-inline--fa fa-facebook-f w-2.5"
+                className="w-4 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -23,13 +27,18 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="/" className="mr-9 text-gray-800">
+
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter"
-                className="svg-inline--fa fa-twitter w-4"
+                className="w-5 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -40,13 +49,18 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="/" className="mr-9 text-gray-800">
+
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="google"
-                className="svg-inline--fa fa-google w-3.5"
+                className="w-5 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 488 512"
@@ -57,13 +71,18 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="/" className="mr-9 text-gray-800">
+
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                className="svg-inline--fa fa-instagram w-3.5"
+                className="w-5 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -74,13 +93,18 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="/" className="mr-9 text-gray-800">
+
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin-in"
-                className="svg-inline--fa fa-linkedin-in w-3.5"
+                className="w-5 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -91,13 +115,18 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="/" className="text-gray-800">
+
+            <a
+              href="#!"
+              type="button"
+              className="rounded-full border-2 border-white  leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="github"
-                className="svg-inline--fa fa-github w-4"
+                className="w-5 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
@@ -109,11 +138,64 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+
+          <div>
+            <form action="">
+              <div className="grid md:grid-cols-3 gird-cols-1 gap-4  justify-center items-center">
+                <div className="md:ml-auto md:mb-6">
+                  <p className="">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+
+                <div className="md:mb-6">
+                  <input
+                    type="text"
+                    className="
+                form-control
+                block
+                w-full
+                px-3
+                py-1.5
+                text-base
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none
+              "
+                    id="exampleFormControlInput1"
+                    placeholder="Email address"
+                  />
+                </div>
+
+                <div className="md:mr-auto mb-6">
+                  <button
+                    type="submit"
+                    className="bg-purple-400 inline-block px-6 py-2 border-2 border-white  font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div className="mb-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              distinctio earum repellat quaerat voluptatibus placeat nam,
+              commodi optio pariatur est quia magnam eum harum corrupti dicta,
+              aliquam sequi voluptate quas.
+            </p>
+          </div>
         </div>
 
-        <p className="text-center text-gray-700 p-4">
-          © 2022 Copyright: Shamim
-        </p>
+        <div className="text-center p-4">© 2021 Copyright Travelish</div>
       </footer>
     </>
   );

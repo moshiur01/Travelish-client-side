@@ -5,7 +5,7 @@ const NewPostPrompt = () => {
     <button
       type="button"
       data-mdb-ripple="true"
-      data-mdb-ripple-color="#fcd34d"
+      data-mdb-ripple-color="purple"
       data-mdb-ripple-duration="1000ms"
       data-bs-toggle="modal"
       data-bs-target="#exampleModalLg"

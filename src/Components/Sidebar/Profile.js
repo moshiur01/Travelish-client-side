@@ -31,7 +31,7 @@ const Profile = () => {
           <button
             type="button"
             data-mdb-ripple="true"
-            data-mdb-ripple-color="#fcd34d"
+            data-mdb-ripple-color="purple"
             data-mdb-ripple-duration="1000ms"
             className="bg-slate-100 2xl:px-6 px-2.5 py-2.5 font-medium text-xs leading-tight uppercase rounded-lg 2xl:rounded transition duration-150 ease-in-out"
           >

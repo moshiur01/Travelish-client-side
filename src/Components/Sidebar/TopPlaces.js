@@ -4,12 +4,12 @@ const TopPlaces = () => {
   return (
     <div className="bg-white rounded-lg p-5 divide-y divide-dashed">
       <div className="text-2xl font-medium text-gray-600 pb-5">Top Places</div>
-      <div className="divide-y divide-dashed h-72 overflow-y-scroll">
+      <div className="divide-y divide-dashed grid grid-cols-2">
         {/* Repeat Start */}
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -21,7 +21,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -31,7 +31,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -41,7 +41,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -51,7 +51,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -61,7 +61,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -71,7 +71,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -81,7 +81,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -91,7 +91,7 @@ const TopPlaces = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >

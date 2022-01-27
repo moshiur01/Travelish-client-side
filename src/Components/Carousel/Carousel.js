@@ -1,9 +1,9 @@
 import React from "react";
-import s1 from "./Media/s1.jpg";
-import s2 from "./Media/s2.jpg";
-import s3 from "./Media/s3.jpg";
-import s4 from "./Media/s4.jpg";
-import s5 from "./Media/s5.jpg";
+import s1 from "./Media/slide-1.jpg";
+import s2 from "./Media/slide-2.jpg";
+import s3 from "./Media/slide-3.jpg";
+import s4 from "./Media/slide-4.jpg";
+import s5 from "./Media/slide-5.jpg";
 
 const Carousel = () => {
   return (
@@ -12,21 +12,21 @@ const Carousel = () => {
       className="carousel slide relative"
       data-bs-ride="carousel"
     >
-      <div className="carousel-inner relative w-full overflow-hidden py-8 px-4">
-        <div className="carousel-item active relative float-left w-full px-4">
-          <img src={s1} className="block w-full rounded-lg" alt="Slide" />
+      <div className="carousel-inner relative w-full overflow-hidden ">
+        <div className="carousel-item active relative float-left w-full ">
+          <img src={s1} className="block w-full " alt="Slide" />
         </div>
-        <div className="carousel-item relative float-left w-full px-4">
-          <img src={s2} className="block w-full rounded-lg" alt="Slide" />
+        <div className="carousel-item relative float-left w-full ">
+          <img src={s2} className="block w-full " alt="Slide" />
         </div>
-        <div className="carousel-item relative float-left w-full px-4">
-          <img src={s3} className="block w-full rounded-lg" alt="Slide" />
+        <div className="carousel-item relative float-left w-full ">
+          <img src={s3} className="block w-full " alt="Slide" />
         </div>
-        <div className="carousel-item relative float-left w-full px-4">
-          <img src={s4} className="block w-full rounded-lg" alt="Slide" />
+        <div className="carousel-item relative float-left w-full ">
+          <img src={s4} className="block w-full " alt="Slide" />
         </div>
-        <div className="carousel-item relative float-left w-full px-4">
-          <img src={s5} className="block w-full rounded-lg" alt="Slide" />
+        <div className="carousel-item relative float-left w-full ">
+          <img src={s5} className="block w-full " alt="Slide" />
         </div>
       </div>
       <button

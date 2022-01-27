@@ -17,16 +17,16 @@ const Login = () => {
               <div className="form-floating mb-3 xl:w-96">
                 <input
                   type="text"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                   id="floatingInput name"
-                  placeholder="name"
+                  placeholder="Enter name"
                 />
                 <label className="text-gray-700">Name</label>
               </div>
               <div className="form-floating mb-3 xl:w-96">
                 <input
                   type="email"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                   id="floatingInput email"
                   placeholder="name@example.com"
                 />
@@ -35,7 +35,7 @@ const Login = () => {
               <div className="form-floating mb-3 xl:w-96">
                 <input
                   type="password"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                   id="floatingPassword password"
                   placeholder="Password"
                 />
@@ -47,9 +47,9 @@ const Login = () => {
             <button
               type="button"
               data-mdb-ripple="true"
-              data-mdb-ripple-color="#fcd34d"
+              data-mdb-ripple-color="purple"
               data-mdb-ripple-duration="1000ms"
-              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-orange-50 rounded-md"
+              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-purple-200 rounded-md"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,9 +70,9 @@ const Login = () => {
             <button
               type="button"
               data-mdb-ripple="true"
-              data-mdb-ripple-color="#fcd34d"
+              data-mdb-ripple-color="purple"
               data-mdb-ripple-duration="1000ms"
-              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-orange-50 rounded-md"
+              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-purple-200 rounded-md"
             >
               Register
             </button>
@@ -83,7 +83,7 @@ const Login = () => {
               onClick={() => {
                 setNewUser(false);
               }}
-              className="cursor-pointer underline hover:text-amber-600 decoration-amber-600 hover:decoration-amber-800 font-medium"
+              className="cursor-pointer - hover:text-purple-600 font-medium"
             >
               Login here!
             </span>
@@ -99,7 +99,7 @@ const Login = () => {
               <div className="form-floating mb-3 xl:w-96">
                 <input
                   type="email"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                   id="floatingInput email"
                   placeholder="name@example.com"
                 />
@@ -108,7 +108,7 @@ const Login = () => {
               <div className="form-floating mb-3 xl:w-96">
                 <input
                   type="password"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                   id="floatingPassword password"
                   placeholder="Password"
                 />
@@ -120,9 +120,9 @@ const Login = () => {
             <button
               type="button"
               data-mdb-ripple="true"
-              data-mdb-ripple-color="#fcd34d"
+              data-mdb-ripple-color="purple"
               data-mdb-ripple-duration="1000ms"
-              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-orange-50 rounded-md"
+              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-purple-200 rounded-md"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,9 +143,9 @@ const Login = () => {
             <button
               type="button"
               data-mdb-ripple="true"
-              data-mdb-ripple-color="#fcd34d"
+              data-mdb-ripple-color="purple"
               data-mdb-ripple-duration="1000ms"
-              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-orange-50 rounded-md"
+              className="text-left p-2.5 leading-tight transition duration-150 ease-in-out font-medium uppercase hover:bg-purple-200 rounded-md"
             >
               Login
             </button>
@@ -156,7 +156,7 @@ const Login = () => {
               onClick={() => {
                 setNewUser(true);
               }}
-              className="cursor-pointer underline hover:text-amber-600 decoration-amber-600 hover:decoration-amber-800 font-medium"
+              className="cursor-pointer  hover:text-purple-600 font-medium"
             >
               Create now!
             </span>

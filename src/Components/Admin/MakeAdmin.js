@@ -57,7 +57,7 @@ const MakeAdmin = () => {
       <div className="form-floating mb-10 w-full">
         <input
           type="email"
-          className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
           id="floatingFilter"
           placeholder="name@example.com"
         />
@@ -83,7 +83,7 @@ const MakeAdmin = () => {
                   <button
                     type="button"
                     data-mdb-ripple="true"
-                    data-mdb-ripple-color="green"
+                    data-mdb-ripple-color="green-"
                     data-mdb-ripple-duration="1000ms"
                     className="text-center p-2.5 leading-tight transition duration-150 ease-in-out rounded-lg"
                   >

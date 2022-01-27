@@ -9,7 +9,7 @@ const AdminPanel = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >
@@ -18,7 +18,7 @@ const AdminPanel = () => {
         <button
           type="button"
           data-mdb-ripple="true"
-          data-mdb-ripple-color="#fcd34d"
+          data-mdb-ripple-color="purple"
           data-mdb-ripple-duration="1000ms"
           className="w-full text-left p-2.5 leading-tight transition duration-150 ease-in-out"
         >

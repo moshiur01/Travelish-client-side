@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./logo.png";
 
 const Header = () => {
   return (
@@ -7,35 +8,14 @@ const Header = () => {
       <div>
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-luggage"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <rect x="6" y="6" width="12" height="14" rx="2" />
-            <path d="M9 6v-1a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1" />
-            <path d="M6 10h12" />
-            <path d="M6 16h12" />
-            <path d="M9 20v1" />
-            <path d="M15 20v1" />
-          </svg>
-          <p className="text-2xl px-5 font-medium hidden md:block">
-            Let's Travel
-          </p>
+          <img className=" w-11" src={logo} alt="" />
+          <p className="text-2xl px-5 font-medium hidden md:block">Travelish</p>
         </Link>
       </div>
       <div className="flex items-center">
         <Link
           to="/"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
         >
           {/* Home Icon */}
           <svg
@@ -60,7 +40,7 @@ const Header = () => {
         <button
           data-bs-toggle="modal"
           data-bs-target="#exampleModalLg"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
         >
           {/* New Icon */}
           <svg
@@ -83,7 +63,7 @@ const Header = () => {
         </button>
         <Link
           to="/about"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
         >
           {/* About Icon */}
           <svg
@@ -107,7 +87,7 @@ const Header = () => {
         </Link>
         <Link
           to="/dashboard"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
         >
           {/* Dashboard Icon */}
           <svg
@@ -130,10 +110,18 @@ const Header = () => {
           </svg>
           <p className="hidden md:block font-medium">Dashboard</p>
         </Link>
+        <div className="flex items-center justify-center">
+          <p className=" hidden md:block font-medium mr-3">Hello: lorem mama</p>
+          <img
+            className="rounded-full w-12 "
+            src="https://img-os-static.hoyolab.com/communityWeb/upload/af335b6e68883e7e40237040aa020cf1.png"
+            alt=""
+          />
+        </div>
         {/* Login Icon */}
         <Link
           to="/login"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
           title="Login"
         >
           <svg
@@ -157,7 +145,7 @@ const Header = () => {
         {/* Logout Icon */}
         <button
           // onClick={logout}
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-amber-300 md:hover:text-amber-400 md:hover:bg-white"
+          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
           title="Logout"
         >
           <svg

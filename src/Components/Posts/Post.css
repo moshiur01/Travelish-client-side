@@ -1,10 +1,5 @@
-.post:nth-child(10n + 3),
-.post:nth-child(10n + 6) {
-  grid-column: span 2 / span 2;
-  grid-row: span 2 / span 2;
-}
 .post-text {
-  -webkit-text-fill-color: #fcd34d;
+  -webkit-text-fill-color: #ffffff;
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: black;
 }
