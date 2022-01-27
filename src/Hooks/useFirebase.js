@@ -15,7 +15,7 @@ import firebaseAuthentication from "../Firebase/FirebaseInit";
 firebaseAuthentication();
 
 const useFirebase = () => {
-  //admin
+  //admin state
   const [adminView, setAdminView] = useState("posts");
 
   // Post Type
