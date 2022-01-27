@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../Components/Header/Header";
 
 const Login = () => {
+  const [newUser, setNewUser] = useState(false);
+  console.log(newUser);
   return (
     <div>
       <Header></Header>
@@ -69,6 +71,17 @@ const Login = () => {
           >
             Login
           </button>
+        </div>
+        <div className="text-center mt-5">
+          Don't have an account?{" "}
+          <span
+            onClick={() => {
+              setNewUser(true);
+            }}
+            className="cursor-pointer underline hover:text-amber-600 decoration-amber-600 hover:decoration-amber-800 font-medium"
+          >
+            Create now!
+          </span>
         </div>
       </div>
 
@@ -146,6 +159,17 @@ const Login = () => {
           >
             Register
           </button>
+        </div>
+        <div className="text-center mt-5">
+          Have an account?{" "}
+          <span
+            onClick={() => {
+              setNewUser(false);
+            }}
+            className="cursor-pointer underline hover:text-amber-600 decoration-amber-600 hover:decoration-amber-800 font-medium"
+          >
+            Login here!
+          </span>
         </div>
       </div>
     </div>

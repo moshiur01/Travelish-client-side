@@ -4,12 +4,12 @@ import Home from "./Pages/Home/Home";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Login from "./Pages/Login/Login";
-import Provider from "./Hooks/Provider";
+import AuthProvider from "./Hooks/AuthProvider";
 
 function App() {
   return (
     <>
-      <Provider>
+      <AuthProvider>
         <BrowserRouter>
           <Routes>
             <Route path="/login" exact={true} element={<Login></Login>}></Route>
@@ -26,7 +26,7 @@ function App() {
             <Route path="/" exact={true} element={<Home></Home>}></Route>
           </Routes>
         </BrowserRouter>
-      </Provider>
+      </AuthProvider>
     </>
   );
 }
