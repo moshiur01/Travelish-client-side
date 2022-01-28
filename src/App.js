@@ -6,6 +6,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import Login from "./Pages/Login/Login";
 import AuthProvider from "./Hooks/AuthProvider";
 import Post from "./Pages/Post/Post";
+import CreatePost from "./Components/CreatePost/CreatePost";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
               path="/dashboard"
               exact={true}
               element={<Dashboard></Dashboard>}
+            ></Route>
+            <Route
+              path="/createPost"
+              exact={true}
+              element={<CreatePost></CreatePost>}
             ></Route>
             <Route
               path="/about"

@@ -39,30 +39,33 @@ const Header = () => {
           </svg>
           <p className="hidden md:block font-medium">Home</p>
         </Link>
-        <button
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModalLg"
-          className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
-        >
-          {/* New Icon */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-pencil md:hidden"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="#2c3e50"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
-            <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
-          </svg>
-          <p className="hidden md:block font-medium">New Post</p>
-        </button>
+        {user.email && (
+          <>
+            <Link
+              to="/createPost"
+              className="transition ease-in-out duration-500 p-2 mx-2 rounded-full hover:bg-purple-300 md:hover:text-purple-400 md:hover:bg-white"
+            >
+              {/* New Icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-pencil md:hidden"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#2c3e50"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+              </svg>
+              <p className="hidden md:block font-medium">New Post</p>
+            </Link>
+          </>
+        )}
 
         <Link
           to="/dashboard"
